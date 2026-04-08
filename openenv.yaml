@@ -1,0 +1,22 @@
+name: email_triage_env
+version: "1.0.0"
+description: >
+  A real-world email triage environment where an AI agent must classify,
+  prioritize, and route incoming emails. Tasks span easy label classification,
+  medium priority ranking, and hard multi-step routing with policy constraints.
+tags:
+  - openenv
+  - email
+  - triage
+  - nlp
+  - real-world
+tasks:
+  - name: classify_email
+    difficulty: easy
+    description: Classify a single email into one of five categories
+  - name: prioritize_inbox
+    difficulty: medium
+    description: Rank 5 emails by urgency and assign priority scores
+  - name: route_and_respond
+    difficulty: hard
+    description: Route email to correct department AND draft a brief acknowledgment reply
